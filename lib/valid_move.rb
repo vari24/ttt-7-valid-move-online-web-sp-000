@@ -1,11 +1,10 @@
 # code your #valid_move? method here
 def valid_move?(board, index)
-  if board[index] == " " || board[index] == "" || board[index] == nil
+  if board[index] == " " || board[index] == "" || board[index] == nil || board[index] == 11
     return TRUE
   else
     return nil || FALSE
-  else
-    
+  
   end
 end
 
